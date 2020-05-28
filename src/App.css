@@ -46,9 +46,13 @@
   color: white;
 }
 
+.section {
+  margin: 0 auto;
+  padding: 40px; 
+}
+
 .section-content {
   max-width: 1100px;
   margin: 0 auto;
   padding: 40px;
-  height: 100%
 }

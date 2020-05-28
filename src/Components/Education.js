@@ -17,18 +17,24 @@ function useWindowSize() {
 export default function Education({ dark, id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className={"section" + (dark ? " section-dark" : "")} style={{minHeight: height}}>
-      <div className="section-content section-dark" id={id}>
-        <div className="container-fluid p-4">
-          <div className="row p-5 shadow-lg">
+    <div className="section">
+      <div className="section-content" id={id}>
+        <div className="container-fluid shadow-lg p-5">
+          <div className="row p-4">
             <div className="col-6">
               <h1>Education</h1>
               <h3 className="pt-4">Northeastern University</h3>
               <h5 className="font-weight-normal">Khoury College of Computer Sciences</h5>
               <h5 className="font-italic font-weight-light">Bachelor of Art in Computer Science, May 2020</h5>
-              <h4 className="mt-4">Related Courses</h4>
-              <p>Software Development, Web Development, <br></br>Computer Systems, Algorithms and Data,
-              Object-Oriented Design, <br></br>Large-Scale Parallel Data Processing, Networks & Distributed Systems
+              <h5 className="mt-4">Related Courses</h5>
+              <p>
+              Web Development<br></br>
+              Computer Systems<br></br>
+              Algorithms and Data<br></br>
+              Software Development<br></br>
+              Object-Oriented Design<br></br>
+              Networks & Distributed Systems<br></br>
+              Large-Scale Parallel Data Processing<br></br>
               </p>
             </div>
             <div className="col-5 pl-5">
@@ -42,7 +48,6 @@ export default function Education({ dark, id }) {
               />
             </div>
           </div>
-          <div></div>
         </div>
       </div>
     </div>
