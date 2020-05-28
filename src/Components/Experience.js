@@ -16,9 +16,9 @@ function useWindowSize() {
 export default function Experience({ dark, id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className={"section" + (dark ? " section-dark" : "")} style={{height: height}}>
+    <div className={"section" + (dark ? " section-dark" : "")} style={{minHeight: height}}>
       <div className="section-content" id={id}>
-        <div className="container p-4">
+        <div className="container shadow-lg p-5">
             <h1>Work Experience</h1>
             <h5 className="pt-4 font-weight-normal">Vistaprint, Waltham, MA</h5>
             <h5 className="font-weight-normal font-italic">Software Engineer Co-op</h5>

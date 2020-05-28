@@ -16,9 +16,9 @@ function useWindowSize() {
 export default function Projects({ dark, id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className={"section" + (dark ? " section-dark" : "")} style={{height: height}}>
+    <div className={"section" + (dark ? " section-dark" : "")} style={{minHeight: height}}>
       <div className="section-content" id={id}>
-        <div className="container">
+        <div className="container shadow-lg p-5">
             <h1>Projects</h1>
             <h5 className="pt-4 font-weight-normal">NU-Movies - April 2020</h5>
             <p className="font-weight-normal font-italic font-weight-bold pb-0 mb-0">
@@ -29,7 +29,7 @@ export default function Projects({ dark, id }) {
             After graduation, I decided to utilize my knowledge on web development and develop a website that reflects my <br></br>
             passion: movies.<br></br>
             NU-Movies is a comprehensive movie recommendation website. User can register an account, login, select favorite movie, <br></br>
-            like a movie, recommend a movie to a friend, add friend, set prifile picture, search for movies, search for user, <br></br>
+            like a movie, recommend a movie to a friend, add friend, set prifile picture, search for movies, search for user, and also<br></br>
             browse information of hundreds of thousands of movies and TV shows.
             </p>
 
