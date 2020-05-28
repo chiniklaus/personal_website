@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useLayoutEffect, useState } from "react";
+
+function useWindowSize() {
+    const [size, setSize] = useState([0, 0]);
+    useLayoutEffect(() => {
+      function updateSize() {
+        setSize([window.innerWidth, window.innerHeight]);
+      }
+      window.addEventListener('resize', updateSize);
+      updateSize();
+      return () => window.removeEventListener('resize', updateSize);
+    }, []);
+    return size;
+}
 
 export default function Knowledge({ dark, id }) {
+  const [width, height] = useWindowSize();
   return (
-    <div className={"section" + (dark ? " section-dark" : "")}>
+    <div className={"section" + (dark ? " section-dark" : "")} style={{height: height}}>
       <div className="section-content" id={id}>
         <div className="container p-4">
             <h1>Computer Knowledge</h1>

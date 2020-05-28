@@ -1,9 +1,22 @@
-import React, { useEffect, useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
+
+function useWindowSize() {
+  const [size, setSize] = useState([0, 0]);
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize([window.innerWidth, window.innerHeight]);
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+  return size;
+}
 
 export default function Education({ dark, id }) {
-  const [width, setWidth] = useState(window.innerWidth)
+  const [width, height] = useWindowSize();
   return (
-    <div className={"section" + (dark ? " section-dark" : "")}>
+    <div className={"section" + (dark ? " section-dark" : "")} style={{height: height}}>
       <div className="section-content" id={id}>
         <div className="container p-4">
             <h1>Education</h1>
@@ -18,6 +31,6 @@ export default function Education({ dark, id }) {
             </p>
         </div>
       </div>
-    // </div>
+    </div>
   );
 }
