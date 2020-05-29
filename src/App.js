@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import i1 from './1.jpg'
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import Education from "./Components/Education";
 import Knowledge from "./Components/Knowledge";
 import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
+import Intro from "./Components/Intro";
 
 class App extends Component {
   constructor(props) {
@@ -38,12 +38,13 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
+        <Intro
+          id="section0"
+        />
         <Education
-          dark={true}
           id="section1"
         />
         <Knowledge
-          dark={false}
           id="section2"
         />
         {/* <div style={{backgroundImage: `url(${i1})`,
@@ -52,11 +53,9 @@ class App extends Component {
                     backgroundRepeat: 'no-repeat'}}>
         </div> */}
         <Experience
-          dark={true}
           id="section3"
         />
         <Projects
-          dark={false}
           id="section4"
         />
       </div>

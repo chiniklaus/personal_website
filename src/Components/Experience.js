@@ -16,7 +16,7 @@ function useWindowSize() {
 export default function Experience({ id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className="section">
+    <div className="section border-top" style={{minHeight: height}}>
       <div className="section-content" id={id}>
         <div className="container shadow-lg p-5">
             <h1>Work Experience</h1>

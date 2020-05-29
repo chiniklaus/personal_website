@@ -1,5 +1,6 @@
 import React, { useLayoutEffect, useState } from "react";
 import neu from '../neu.png'
+import neu_view from '../neu_view.jpg'
 
 function useWindowSize() {
   const [size, setSize] = useState([0, 0]);
@@ -17,7 +18,8 @@ function useWindowSize() {
 export default function Education({ dark, id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className="section">
+    <div className="section border-top" style={{
+      minHeight: height}}>
       <div className="section-content" id={id}>
         <div className="container-fluid shadow-lg p-5">
           <div className="row p-4">
