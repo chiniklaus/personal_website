@@ -42,12 +42,9 @@
   text-decoration: underline;
 }
 
-.section-dark {
+.section {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-}
-
-.section {
   margin: 0 auto;
   padding: 40px; 
 }

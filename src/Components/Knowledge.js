@@ -13,10 +13,10 @@ function useWindowSize() {
     return size;
 }
 
-export default function Knowledge({ dark, id }) {
+export default function Knowledge({ id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className="section section-dark border-top" style={{minHeight: height}}>
+    <div className="section border-top" style={{minHeight: height}}>
       <div className="section-content" id={id}>
         <div className="container shadow-sm p-5">
             <h1>Computer Knowledge</h1>
