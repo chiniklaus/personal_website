@@ -18,7 +18,7 @@ function useWindowSize() {
 export default function Education({ dark, id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className="section border-top" style={{
+    <div className="section section-dark border-top" style={{
       minHeight: height}}>
       <div className="section-content" id={id}>
         <div className="container-fluid shadow-lg p-5">

@@ -42,7 +42,7 @@
 }
 
 .section-dark {
-  background: #333;
+  background: #07575B;
   color: white;
 }
 
@@ -55,13 +55,16 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
-  background: white;
-  color: black;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
 }
 
 .intro-content {
-  max-width: 1200px;
   margin: 0 auto;
   padding-top: 10px;
-  color: black;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
 }
