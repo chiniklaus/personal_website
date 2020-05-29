@@ -18,7 +18,7 @@ export default function Projects({ dark, id }) {
   return (
     <div className="section section-dark border-top" style={{minHeight: height}}>
       <div className="section-content" id={id}>
-        <div className="container shadow-lg p-5">
+        <div className="container shadow-sm p-5">
             <h1>Projects</h1>
             <h5 className="pt-4 font-weight-normal">NU-Movies - April 2020</h5>
             <p className="font-weight-normal font-italic font-weight-bold pb-0 mb-0">
@@ -35,7 +35,8 @@ export default function Projects({ dark, id }) {
 
             <h5 className="pt-4 font-weight-normal">NUSH shell - February 2019</h5>
             <p className="font-weight-normal font-italic font-weight-bold pb-0 mb-0">
-            programming language: c
+            programming language: c<br></br>
+            operating system: Linux
             </p>
             <p className="font-weight-normal">
             For my computer system class, I developed a personalized Unix shell that support operators like redirect I/O, <br></br>

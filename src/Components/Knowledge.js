@@ -18,7 +18,7 @@ export default function Knowledge({ dark, id }) {
   return (
     <div className="section section-dark border-top" style={{minHeight: height}}>
       <div className="section-content" id={id}>
-        <div className="container shadow-lg p-5">
+        <div className="container shadow-sm p-5">
             <h1>Computer Knowledge</h1>
             <div className="row pt-4">
                 <div className="col-4">
@@ -49,7 +49,7 @@ export default function Knowledge({ dark, id }) {
                     <h5>Software Tools/method:</h5>
                 </div>
                 <div className="col-8">
-                    <h5 class="font-weight-light">Git, Gitlab, AWS, GCP, Docker, IntelliJ, Eclipse, PyCharm, Visual Studio Code,<br></br> 
+                    <h5 class="font-weight-light">Git, Gitlab, AWS, GCP, Docker, IntelliJ, Eclipse, PyCharm, VS Code,<br></br> 
                         VirtualBox, Jira, Vagrant, Swagger, Kubernetes, Snowflake, MongoDB</h5>
                 </div>
             </div>

@@ -10,14 +10,23 @@ export default class Navbar extends Component {
   render() {
     return (
       <nav className="nav" id="navbar">
+        <h2 className="nav-content nav-logo" onClick={this.scrollToTop}>
+          <strong>{"{ "}chiniklaus{" }"}</strong>
+        </h2>
         <div className="nav-content">
-          <img
-            src={i1}
-            className="nav-logo"
-            alt="Logo"
-            onClick={this.scrollToTop}
-          />
-          <ul className="nav-items">
+          <ul className="mt-3">
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="section0"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <strong>Intro</strong>
+              </Link>
+            </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
@@ -27,7 +36,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Education
+                <strong>Education</strong>
               </Link>
             </li>
             <li className="nav-item">
@@ -39,7 +48,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Computer Knowledge
+                <strong>Computer Knowledge</strong>
               </Link>
             </li>
             <li className="nav-item">
@@ -51,7 +60,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Work Experience
+                <strong>Work Experience</strong>
               </Link>
             </li>
             <li className="nav-item">
@@ -63,7 +72,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Projects
+                <strong>Projects</strong>
               </Link>
             </li>
           </ul>
