@@ -17,11 +17,10 @@ function useWindowSize() {
 export default function Education({ id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className="section border-top" style={{
-      minHeight: height}}>
+    <div className="section border-top education" style={{minHeight: height}}>
       <div className="section-content" id={id}>
-        <div className="container-fluid shadow-sm p-5">
-          <div className="row p-4">
+        <div className="container-fluid rounded shadow p-5" style={{background: 'white'}}>
+          <div className="row p-2">
             <div className="col-6">
               <h1>Education</h1>
               <h3 className="pt-4">Northeastern University</h3>

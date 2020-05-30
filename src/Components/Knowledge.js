@@ -18,14 +18,14 @@ export default function Knowledge({ id }) {
   return (
     <div className="section border-top" style={{minHeight: height}}>
       <div className="section-content" id={id}>
-        <div className="container shadow-sm p-5">
+        <div className="container shadow p-5">
             <h1>Computer Knowledge</h1>
             <div className="row pt-4">
                 <div className="col-4">
                     <h5>Languages:</h5>
                 </div>
                 <div className="col-8">
-                    <h5 class="font-weight-light">Java, Python, Golang, C, Scala, HTML, CSS, JavaScript, SQL</h5>
+                    <h5 class="font-weight-light">Java, Python, JavaScript, HTML, CSS, Scala, C, SQL, Golang</h5>
                 </div>
             </div>
             <div className="row">

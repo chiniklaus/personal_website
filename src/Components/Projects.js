@@ -18,7 +18,7 @@ export default function Projects({ id }) {
   return (
     <div className="section border-top" style={{minHeight: height}}>
       <div className="section-content" id={id}>
-        <div className="container shadow-sm p-5">
+        <div className="container shadow p-5">
             <h1>Projects</h1>
             <h5 className="pt-4 font-weight-normal">NU-Movies - April 2020</h5>
             <p className="font-weight-normal font-italic font-weight-bold pb-0 mb-0">

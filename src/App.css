@@ -43,14 +43,12 @@
 }
 
 .section {
-  background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
   margin: 0 auto;
   padding: 40px; 
 }
 
 .section-content {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 40px;
 }
@@ -65,4 +63,31 @@
   margin: 0 auto;
   padding-top: 10px;
   color: black;
+}
+
+.education {
+  background: whitesmoke;
+  color: rgb(0, 0, 0);
+}
+
+.hmu:hover {
+  text-decoration: underline;
+}
+
+.knowledge {
+
+}
+
+.experience {
+  background: whitesmoke;
+  color: rgb(0, 0, 0);
+}
+
+.projects {
+
+}
+
+.contact {
+  background-color: blueviolet;
+  color: white;
 }
