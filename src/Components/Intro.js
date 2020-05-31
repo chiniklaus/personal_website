@@ -21,9 +21,9 @@ export default function Intro({ id }) {
     <div className="intro-section" style={{
       minHeight: height,
       backgroundImage: `url(${bg})`,
-                    backgroundPosition: 'center',
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat'
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat'
     }}  id={id}>
         <div className="container-fluid intro-content pb-5">
             <h1 className="text-center">

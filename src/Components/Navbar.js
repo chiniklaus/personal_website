@@ -21,7 +21,6 @@ export default class Navbar extends Component {
                 to="section0"
                 spy={true}
                 smooth={true}
-                offset={-70}
                 duration={500}
               >
                 <strong>Intro</strong>
@@ -33,7 +32,6 @@ export default class Navbar extends Component {
                 to="section1"
                 spy={true}
                 smooth={true}
-                offset={-70}
                 duration={500}
               >
                 <strong>Education</strong>

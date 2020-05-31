@@ -64,9 +64,10 @@
   color: black;
 }
 
-.education {
-  background: whitesmoke;
-  color: rgb(0, 0, 0);
+.education-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .hmu:hover {

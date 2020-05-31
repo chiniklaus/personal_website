@@ -1,5 +1,6 @@
 import React, { useLayoutEffect, useState } from "react";
 import neu from '../neu.png'
+import ed from '../ed.jpg'
 
 function useWindowSize() {
   const [size, setSize] = useState([0, 0]);
@@ -17,13 +18,19 @@ function useWindowSize() {
 export default function Education({ id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className="section border-top education" style={{minHeight: height}}>
-      <div className="section-content" id={id}>
-        <div className="container-fluid rounded shadow p-5" style={{background: 'white'}}>
-          <div className="row p-2">
-            <div className="col-6">
-              <h1>Education</h1>
-              <h3 className="pt-4">Northeastern University</h3>
+    <div className="border-top education-section" style={{
+      minHeight: height,
+      backgroundImage: `url(${ed})`,
+      backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat'
+    }} id={id}>
+      <div>
+        <div className="container rounded shadow p-5 ml-5">
+          <div className="row">
+            <div className="col-8">
+              <h2>Education</h2>
+              <h4 className="pt-4">Northeastern University</h4>
               <h5 className="font-weight-normal">Khoury College of Computer Sciences</h5>
               <h5 className="font-italic font-weight-light">Bachelor of Art in Computer Science, May 2020</h5>
               <h5 className="mt-4">Related Courses</h5>
@@ -37,15 +44,32 @@ export default function Education({ id }) {
               Large-Scale Parallel Data Processing<br></br>
               </p>
             </div>
-            <div className="col-5 pl-5">
-              <img
-                src={neu}
-                className="neu"
-                alt="neu"
-                style={{
-                  height: 400
-                }}
-              />
+            <div className="col-4">
+              <div className="row" style={{
+                display: 'flex',
+                justifyContent: 'center'
+                }}>
+                <img
+                  src={neu}
+                  className="neu"
+                  alt="neu"
+                  style={{
+                    height: 250
+                  }}
+                />
+              </div>
+              <div  className="row" style={{
+                display: 'flex',
+                justifyContent: 'center'
+                }}>
+                <h4 className="text-center font-italic font-weight-normal pt-4">Lux, Veritas, Virtus</h4>
+              </div>
+              <div  className="row" style={{
+                display: 'flex',
+                justifyContent: 'center'
+                }}>
+                <h4 className="text-center font-italic font-weight-light pt-1">Light, Truth, Courage</h4>
+              </div>
             </div>
           </div>
         </div>
