@@ -1,5 +1,6 @@
 import React, { useLayoutEffect, useState } from "react";
 import { Link } from "react-scroll";
+import bg from '../bg.jpg'
 
 function useWindowSize() {
   const [size, setSize] = useState([0, 0]);
@@ -17,8 +18,14 @@ function useWindowSize() {
 export default function Intro({ id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className="intro-section" style={{minHeight: height}}  id={id}>
-        <div className="container-fluid intro-content pt-2 pb-5">
+    <div className="intro-section" style={{
+      minHeight: height,
+      backgroundImage: `url(${bg})`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
+    }}  id={id}>
+        <div className="container-fluid intro-content pb-5">
             <h1 className="text-center">
               <strong>Full-stack Developer, Film Maker, Student For Life</strong>
             </h1>
