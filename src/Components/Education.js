@@ -1,6 +1,5 @@
 import React, { useLayoutEffect, useState } from "react";
 import neu from '../neu.png'
-import ed from '../ed.jpg'
 
 function useWindowSize() {
   const [size, setSize] = useState([0, 0]);
@@ -18,16 +17,11 @@ function useWindowSize() {
 export default function Education({ id }) {
   const [width, height] = useWindowSize();
   return (
-    <div className="border-top education-section" style={{
-      minHeight: height,
-      backgroundImage: `url(${ed})`,
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat'
-    }} id={id}>
+    <div className="section border-top" style={{minHeight: height}}>
+      <div className="section-content" id={id}>
       <div>
-        <div className="container rounded shadow p-5 ml-5">
-          <div className="row">
+        <div className="container rounded shadow p-5">
+          <div className="row pl-4 pr-5">
             <div className="col-8">
               <h2>Education</h2>
               <h4 className="pt-4">Northeastern University</h4>
@@ -73,6 +67,7 @@ export default function Education({ id }) {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@
   width: 100%;
   height: 60px;
   z-index: 1000;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.35);
 }
 
 .nav-logo {
@@ -45,6 +45,7 @@
 .section {
   margin: 0 auto;
   padding: 40px; 
+  background: whitesmoke;
 }
 
 .section-content {
@@ -74,20 +75,20 @@
   text-decoration: underline;
 }
 
-.knowledge {
-
-}
-
 .experience {
   background: whitesmoke;
   color: rgb(0, 0, 0);
 }
 
-.projects {
-
-}
-
 .contact {
   background-color: blueviolet;
   color: white;
+}
+
+.iconLink {
+  color: white;
+}
+
+.iconLink:hover {
+  color: black;
 }

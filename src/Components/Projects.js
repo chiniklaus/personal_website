@@ -1,5 +1,7 @@
 import React, { useLayoutEffect, useState } from "react";
 import nm from '../nu-movies.png';
+import sh from '../sh.png';
+import st from '../st.jpg';
 
 function useWindowSize() {
   const [size, setSize] = useState([0, 0]);
@@ -57,7 +59,7 @@ export default function Projects({ id }) {
               </p>
             </div>
             <div className="col-6 mt-4">
-              <img src={nm} class="rounded img-fluid z-depth-1" alt="..."/>
+              <img src={sh} class="rounded img-fluid z-depth-1" alt="..."/>
             </div>
           </div>
 
@@ -75,7 +77,7 @@ export default function Projects({ id }) {
               </p>
             </div>
             <div className="col-6 mt-4">
-              <img src={nm} class="rounded img-fluid z-depth-1" alt="..."/>
+              <img src={st} class="rounded img-fluid z-depth-1" alt="..."/>
             </div>
           </div>
         </div>

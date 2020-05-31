@@ -11,7 +11,7 @@ export default class Navbar extends Component {
     return (
       <nav className="nav" id="navbar">
         <h2 className="nav-content nav-logo" onClick={this.scrollToTop}>
-          <strong>{"{ "}chiniklaus{" }"}</strong>
+          <strong>chiniklaus</strong>
         </h2>
         <div className="nav-content">
           <ul className="mt-3">
@@ -21,6 +21,7 @@ export default class Navbar extends Component {
                 to="section0"
                 spy={true}
                 smooth={true}
+                offset={-70}
                 duration={500}
               >
                 <strong>Intro</strong>
@@ -32,6 +33,7 @@ export default class Navbar extends Component {
                 to="section1"
                 spy={true}
                 smooth={true}
+                offset={-70}
                 duration={500}
               >
                 <strong>Education</strong>

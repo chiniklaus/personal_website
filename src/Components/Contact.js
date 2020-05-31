@@ -12,9 +12,10 @@ export default function Contact({ id }) {
           <h4 className="text-center">chiniklaus09@gmail.com</h4>
         </div>
         <div class="row d-flex justify-content-center mt-4 mb-4">
-          <MDBIcon className="pr-4" fab icon="linkedin-in" size="2x"/>
-          <MDBIcon className="pr-4" fab icon="github" size="2x"/>
-          <MDBIcon fab icon="facebook" size="2x"/>
+          <a href="https://www.linkedin.com/in/dayu-qian-78a177133/" className="iconLink pr-4"><MDBIcon fab icon="linkedin-in" size="2x"/></a>
+          <a href="https://github.com/chiniklaus" className="iconLink pr-4"><MDBIcon fab icon="github" size="2x" /></a>
+          <a href="https://www.facebook.com/dayu.qian" className="iconLink pr-4"><MDBIcon fab icon="facebook" size="2x"/></a>
+          <a href="mailto:chiniklaus09@gmail.com" className="iconLink"><MDBIcon icon="envelope" size="2x"/></a>
         </div>
         <div className="row">
         </div>
