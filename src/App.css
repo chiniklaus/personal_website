@@ -12,11 +12,11 @@
 }
 
 .nav-logo {
-  color: rebeccapurple;
+  color: black;
 }
 
 .nav-logo:hover {
-  color: black;
+  color: red;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -33,11 +33,11 @@
 .nav-item {
   display: inline;
   margin-left: 2rem;
-  color: violet;
+  color: black;
 }
 
 .nav-item:hover {
-  color: black;
+  color: red;
   cursor: pointer;
   text-decoration: underline;
 }
