@@ -11,28 +11,6 @@ import Contact from "./Components/Contact";
 class App extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-        y1: 0,
-        y3: 0
-    }
-    this.handleScroll = this.handleScroll.bind(this)
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
-  handleScroll(event) {
-    let y1 = window.pageYOffset
-    let realy1 = Math.min(y1, 600);
-
-    this.setState({
-      y1: realy1
-    });
   }
 
   render() {

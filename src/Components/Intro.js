@@ -1,6 +1,5 @@
 import React, { useLayoutEffect, useState } from "react";
 import { Link } from "react-scroll";
-import bg from '../bg.jpg'
 
 function useWindowSize() {
   const [size, setSize] = useState([0, 0]);

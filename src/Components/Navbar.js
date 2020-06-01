@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import i1 from "../1.jpg";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class Navbar extends Component {
