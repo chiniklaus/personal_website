@@ -18,7 +18,7 @@ export default function Knowledge({ id }) {
   return (
     <div className="section border-top" style={{minHeight: height}}>
       <div className="section-content" id={id}>
-        <div className="container shadow p-5">
+        <div className="container shadow p-5 card">
             <h1>Computer Knowledge</h1>
             <div className="row pt-4">
                 <div className="col-4">

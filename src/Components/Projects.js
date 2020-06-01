@@ -21,7 +21,7 @@ export default function Projects({ id }) {
   return (
     <div className="section border-top" style={{minHeight: height}}>
       <div className="section-content" id={id}>
-        <div className="container shadow p-5">
+        <div className="container shadow p-5 card">
           <h1>Projects</h1>
           <div className="row border-bottom pb-5">
             <div className="col-6">

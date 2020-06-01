@@ -20,7 +20,7 @@ export default function Education({ id }) {
     <div className="section border-top" style={{minHeight: height}}>
       <div className="section-content" id={id}>
       <div>
-        <div className="container rounded shadow p-5">
+        <div className="container rounded shadow p-5 card">
           <div className="row pl-4 pr-5">
             <div className="col-8">
               <h2>Education</h2>
