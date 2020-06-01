@@ -48,7 +48,7 @@ export default function Projects({ id }) {
               <MDBMask className="flex-center" overlay="black-strong">
                 <div className="container-fluid text-center">
                     <a href='https://github.com/chiniklaus/personal_website'>
-                      <MDBIcon far icon="arrow-alt-circle-right" className="githubArrow" size="5x"/>
+                      <MDBIcon far icon="arrow-alt-circle-right" className="githubArrow" size="3x"/>
                     </a>
                 </div>
               </MDBMask>        
@@ -74,7 +74,7 @@ export default function Projects({ id }) {
                 <MDBMask className="flex-center" overlay="black-strong">
                   <div className="container-fluid text-center">
                       <a href='https://github.com/chiniklaus/nush'>
-                        <MDBIcon far icon="arrow-alt-circle-right" className="githubArrow" size="5x"/>
+                        <MDBIcon far icon="arrow-alt-circle-right" className="githubArrow" size="3x"/>
                       </a>
                   </div>
                 </MDBMask>        
