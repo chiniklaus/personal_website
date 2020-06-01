@@ -1,4 +1,5 @@
 import React, { useLayoutEffect, useState } from "react";
+import { MDBMask, MDBView, MDBIcon } from "mdbreact";
 import nm from '../nu-movies.png';
 import sh from '../sh.png';
 import st from '../st.jpg';
@@ -42,7 +43,16 @@ export default function Projects({ id }) {
               </p>
             </div>
             <div className="col-6 mt-4">
+            <MDBView hover>
               <img src={nm} className="rounded img-fluid z-depth-1" alt="..."/>
+              <MDBMask className="flex-center" overlay="black-strong">
+                <div className="container-fluid text-center">
+                    <a href='https://github.com/chiniklaus/personal_website'>
+                      <MDBIcon far icon="arrow-alt-circle-right" className="githubArrow" size="5x"/>
+                    </a>
+                </div>
+              </MDBMask>        
+            </MDBView>
             </div>
           </div>
 
@@ -59,7 +69,16 @@ export default function Projects({ id }) {
               </p>
             </div>
             <div className="col-6 mt-4">
-              <img src={sh} className="rounded img-fluid z-depth-1" alt="..."/>
+              <MDBView hover>
+                <img src={sh} className="rounded img-fluid z-depth-1" alt="..."/>
+                <MDBMask className="flex-center" overlay="black-strong">
+                  <div className="container-fluid text-center">
+                      <a href='https://github.com/chiniklaus/nush'>
+                        <MDBIcon far icon="arrow-alt-circle-right" className="githubArrow" size="5x"/>
+                      </a>
+                  </div>
+                </MDBMask>        
+              </MDBView>
             </div>
           </div>
 

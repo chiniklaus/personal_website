@@ -95,3 +95,11 @@
 .card {
   background: white;
 }
+
+.githubArrow {
+  color: white;
+}
+
+.githubArrow:hover {
+  color: green;
+}
