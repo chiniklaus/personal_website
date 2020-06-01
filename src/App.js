@@ -9,10 +9,7 @@ import Intro from "./Components/Intro";
 import Contact from "./Components/Contact";
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-  }
-
+  
   render() {
     return (
       <div className="App">

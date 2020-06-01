@@ -42,7 +42,7 @@ export default function Projects({ id }) {
               </p>
             </div>
             <div className="col-6 mt-4">
-              <img src={nm} class="rounded img-fluid z-depth-1" alt="..."/>
+              <img src={nm} className="rounded img-fluid z-depth-1" alt="..."/>
             </div>
           </div>
 
@@ -59,7 +59,7 @@ export default function Projects({ id }) {
               </p>
             </div>
             <div className="col-6 mt-4">
-              <img src={sh} class="rounded img-fluid z-depth-1" alt="..."/>
+              <img src={sh} className="rounded img-fluid z-depth-1" alt="..."/>
             </div>
           </div>
 
@@ -77,7 +77,7 @@ export default function Projects({ id }) {
               </p>
             </div>
             <div className="col-6 mt-4">
-              <img src={st} class="rounded img-fluid z-depth-1" alt="..."/>
+              <img src={st} className="rounded img-fluid z-depth-1" alt="..."/>
             </div>
           </div>
         </div>

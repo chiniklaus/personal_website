@@ -25,7 +25,7 @@ export default function Knowledge({ id }) {
                     <h5>Languages:</h5>
                 </div>
                 <div className="col-8">
-                    <h5 class="font-weight-light">Java, Python, JavaScript, HTML, CSS, Scala, C, SQL, Golang</h5>
+                    <h5 className="font-weight-light">Java, Python, JavaScript, HTML, CSS, Scala, C, SQL, Golang</h5>
                 </div>
             </div>
             <div className="row">
@@ -33,7 +33,7 @@ export default function Knowledge({ id }) {
                     <h5>Libraries/Frameworks:</h5>
                 </div>
                 <div className="col-8">
-                    <h5 class="font-weight-light">Node.js, Hadoop, Spark, React.js, Bootstrap, Angular, Spring Boot, Flask</h5>
+                    <h5 className="font-weight-light">Node.js, Hadoop, Spark, React.js, Bootstrap, Angular, Spring Boot, Flask</h5>
                 </div>
             </div>
             <div className="row">
@@ -41,7 +41,7 @@ export default function Knowledge({ id }) {
                     <h5>Operating Systems:</h5>
                 </div>
                 <div className="col-8">
-                    <h5 class="font-weight-light">macOS, Windows, Linux</h5>
+                    <h5 className="font-weight-light">macOS, Windows, Linux</h5>
                 </div>
             </div>
             <div className="row">
@@ -49,7 +49,7 @@ export default function Knowledge({ id }) {
                     <h5>Software Tools/method:</h5>
                 </div>
                 <div className="col-8">
-                    <h5 class="font-weight-light">Git, Gitlab, AWS, GCP, Docker, IntelliJ, Eclipse, PyCharm, VS Code,<br></br> 
+                    <h5 className="font-weight-light">Git, Gitlab, AWS, GCP, Docker, IntelliJ, Eclipse, PyCharm, VS Code,<br></br> 
                         VirtualBox, Jira, Vagrant, Swagger, Kubernetes, Snowflake, MongoDB</h5>
                 </div>
             </div>
