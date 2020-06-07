@@ -88,7 +88,7 @@ export default function Projects({ id }) {
               <p className="font-weight-normal font-italic font-weight-bold mb-3">
               backend: Java Spring Boot, MySQL database<br></br>
               frontend: TypeScript, Reactjs, Redux<br></br>
-              devops: Github, enkins, SonarQube
+              devops: Github, Jenkins, SonarQube
               </p>
               <p className="font-weight-normal">
               For my software development class, I worked with 4 other fellow classmates and developed a web application that<br></br>
