@@ -10,7 +10,7 @@ export default class Navbar extends Component {
     return (
       <nav className="nav" id="navbar">
         <h2 className="nav-content nav-logo" onClick={this.scrollToTop}>
-          <strong>chiniklaus</strong>
+          <strong>Dayu.Qian</strong>
         </h2>
         <div className="nav-content">
           <ul className="mt-3">

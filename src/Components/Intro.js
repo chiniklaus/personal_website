@@ -24,7 +24,7 @@ export default function Intro({ id }) {
               <strong>Full-stack Developer, Film Maker, Student For Life</strong>
             </h1>
             <h4 className="pt-4 font-weight-normal text-center">
-              你好！I am Dayu Qian, a.k.a. chiniklaus
+              你好！I am Dayu Qian
             </h4>
             <h4 className="pt-4 font-weight-light text-center">
               Hi guys, my name is Dayu Qian. I graduated from Northeastern University in May 2020.

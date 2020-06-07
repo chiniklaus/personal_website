@@ -32,9 +32,9 @@ export default function Projects({ id }) {
               frontend: Reactjs, Bootstrap, MDBReact
               </p>
               <p className="font-weight-normal">
-              After I graduated from college, I decided to make a website
-              for movie recommendation, so I can <strong>force</strong> my friends to
-              watch the movies and shows I like.
+              After I graduated from college, I decided to make a movie recommendation website for fun! In the past, I worked
+              with other students to develop websites, but I was always only in charge of part of the development. This time,
+              I want to do it all, from front end to back end.
               </p>
               <p>
               NU-Movies is a comprehensive movie recommendation website. User can register an account, login, select favorite movie,
@@ -47,7 +47,7 @@ export default function Projects({ id }) {
               <img src={nm} className="rounded img-fluid z-depth-1" alt="..."/>
               <MDBMask className="flex-center" overlay="black-strong">
                 <div className="container-fluid text-center">
-                    <a href='https://github.com/chiniklaus/personal_website'>
+                    <a href='https://github.com/chiniklaus/NU-Movies'>
                       <MDBIcon far icon="arrow-alt-circle-right" className="githubArrow" size="3x"/>
                     </a>
                 </div>
