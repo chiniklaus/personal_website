@@ -26,7 +26,7 @@ export default function Projects({ id }) {
           <h1>Projects</h1>
           <div className="row border-bottom pb-5">
             <div className="col-6">
-              <h5 className="pt-4 font-weight-normal">NU-Movies - April 2020</h5>
+              <h5 className="pt-4 font-weight-normal">GottaWatchIt! - April 2020</h5>
               <p className="font-weight-normal font-italic font-weight-bold mb-3">
               backend: Java Spring Boot, MySQL database<br></br>
               frontend: Reactjs, Bootstrap, MDBReact
@@ -37,7 +37,7 @@ export default function Projects({ id }) {
               I want to do it all, from front end to back end.
               </p>
               <p>
-              NU-Movies is a comprehensive movie recommendation website. User can register an account, login, select favorite movie,
+              GottaWatchIt! is a comprehensive movie recommendation website. User can register an account, login, select favorite movie,
               like a movie, recommend a movie to a friend, add friend, set prifile picture, search for movies, search for user, and also
               browse information of hundreds of thousands of movies and TV shows.
               </p>
@@ -47,7 +47,7 @@ export default function Projects({ id }) {
               <img src={nm} className="rounded img-fluid z-depth-1" alt="..."/>
               <MDBMask className="flex-center" overlay="black-strong">
                 <div className="container-fluid text-center">
-                    <a href='https://github.com/chiniklaus/NU-Movies'>
+                    <a href='https://github.com/chiniklaus/GottaWatchIt-Client'>
                       <MDBIcon far icon="arrow-alt-circle-right" className="githubArrow" size="3x"/>
                     </a>
                 </div>
