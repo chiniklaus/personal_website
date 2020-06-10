@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useState } from "react";
 import { MDBMask, MDBView, MDBIcon } from "mdbreact";
-import nm from '../nu-movies.png';
+import nm from '../gwi.png';
 import sh from '../sh.png';
 import st from '../st.jpg';
 
