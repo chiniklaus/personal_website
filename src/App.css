@@ -103,3 +103,11 @@
 .githubArrow:hover {
   color: green;
 }
+
+.githubArrow {
+  color: white;
+}
+
+.githubArrow:hover {
+  color: green;
+}

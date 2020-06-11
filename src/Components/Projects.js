@@ -32,14 +32,16 @@ export default function Projects({ id }) {
               frontend: Reactjs, Bootstrap, MDBReact
               </p>
               <p className="font-weight-normal">
-              After I graduated from college, I decided to make a movie recommendation website for fun! In the past, I worked
-              with other students to develop websites, but I was always only in charge of part of the development. This time,
-              I want to do it all, from front end to back end.
+              After I graduated from college, I decided to make a movie recommendation website for fun! In the past, I always work
+              in teams. This time, I want to do it all, from front end to back end.
               </p>
               <p>
-              GottaWatchIt! is a comprehensive movie recommendation website. User can register an account, login, select favorite movie,
-              like a movie, recommend a movie to a friend, add friend, set prifile picture, search for movies, search for user, and also
-              browse information of hundreds of thousands of movies and TV shows.
+              GottaWatchIt! is a movie recommendation website that enables user to document his/her own movie viewing journey. User
+              can personalize their profile picture, select the movies he/she likes, and select favorite movie! The site also has
+              social network features.
+              </p>
+              <p>
+                <strong>Hover over the picture on the right to find out more about the project!</strong>
               </p>
             </div>
             <div className="col-6 mt-4">
@@ -47,9 +49,24 @@ export default function Projects({ id }) {
               <img src={nm} className="rounded img-fluid z-depth-1" alt="..."/>
               <MDBMask className="flex-center" overlay="black-strong">
                 <div className="container-fluid text-center">
-                    <a href='https://github.com/chiniklaus/GottaWatchIt-Client'>
-                      <MDBIcon far icon="arrow-alt-circle-right" className="githubArrow" size="3x"/>
-                    </a>
+                  <div className="row">
+                    <div className="col-2"></div>
+                    <div className="col-10" style={{display: 'flex', alignItems: 'center'}}>
+                      <a href='https://github.com/chiniklaus/GottaWatchIt-Client'>
+                        <MDBIcon far icon="arrow-alt-circle-right" className="githubArrow" size="3x"/>
+                      </a>
+                      <h5 className="pl-2" style={{color:'white', marginLeft: 5}}>github repo</h5>
+                    </div>
+                  </div>
+                  <div className="row mt-2">
+                    <div className="col-2"></div>
+                    <div className="col-10" style={{display: 'flex', alignItems: 'center'}}>
+                      <a href='https://www.youtube.com/watch?v=G7cCgAqFYZU&t=7s'>
+                        <MDBIcon fab icon="youtube" className="githubArrow" size="3x"/>
+                      </a>
+                      <h5 className="pl-2" style={{color:'white'}}>youtube system demo</h5>
+                    </div>
+                  </div>
                 </div>
               </MDBMask>        
             </MDBView>
